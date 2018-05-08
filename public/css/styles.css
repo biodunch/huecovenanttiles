@@ -219,7 +219,7 @@ button:focus {
 
 .button:hover {
   background-color: #ffffff;
-  color: #00aafe;
+  color: #fecf00;
   -webkit-box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13);
   box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13);
 }
@@ -268,13 +268,13 @@ button:focus {
 }
 
 .service .thumbnail:hover .service__title {
-  color: #00aafe;
+  color: #fec300;
 }
 
 .service .thumbnail:hover .material-icons {
-  background-color: rgb(0, 170, 254);
-  -webkit-box-shadow: 0px 0px 15px 0px rgb(0, 170, 254);
-  box-shadow: 0px 0px 15px 0px rgb(0, 170, 254);
+  background-color: rgb(254, 211, 0);
+  -webkit-box-shadow: 0px 0px 15px 0px rgb(254, 211, 0);
+  box-shadow: 0px 0px 15px 0px rgb(254, 211, 0);
   color: #fff;
 }
 
@@ -291,7 +291,7 @@ button:focus {
   height: 70px;
   border-radius: 50%;
   background-color: rgb(235, 248, 255);
-  color: rgb(0, 170, 254);
+  color: rgb(254, 211, 0);
   font-size: 30px;
   line-height: 0.933;
   line-height: 2.3;
@@ -315,9 +315,9 @@ button:focus {
 
 .Ellipse_ {
   border-radius: 50%;
-  background-color: rgb(0, 170, 254);
-  -webkit-box-shadow: 0px 0px 15px 0px rgb(0, 170, 254);
-  box-shadow: 0px 0px 15px 0px rgb(0, 170, 254);
+  background-color: rgb(254, 211, 0);
+  -webkit-box-shadow: 0px 0px 15px 0px rgb(254, 211, 0);
+  box-shadow: 0px 0px 15px 0px rgb(254, 211, 0);
   position: absolute;
   left: 284px;
   top: 1154px;
