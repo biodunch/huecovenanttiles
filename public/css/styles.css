@@ -362,7 +362,7 @@ button:focus {
 .page-section__title {
   font-size: 30px;
   font-weight: bold;
-  color: #556a87;
+  color: #efc910;
   margin-bottom: 25px;
 }
 
@@ -1070,6 +1070,7 @@ button:focus {
 }
 
 .footer__third .glyphicon-envelope,
+.footer__third .glyphicon-map-marker,
 .footer__third .glyphicon-earphone {
   color: #fff;
   padding-right: 10px;
