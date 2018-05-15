@@ -7,11 +7,13 @@
   <title>{{title}}</title>
   <meta name="keywords" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
   <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.">
-
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="flat-icon/flaticon.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/animate.css"> {{!--
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> --}}
+
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 
 </head>
 
@@ -31,25 +33,25 @@
             </a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav pull-right">
-              <li>
+            <ul class="nav navbar-nav pull-right custom-nav">
+              <li class="item">
                 <a href="/">HOME</a>
               </li>
-              <li>
+              <li class="item">
                 <a href="/service">PRODUCTS</a>
               </li>
-              <li>
+              <li class="item">
                 <a href="/about">ABOUT</a>
               </li>
-              <li>
+              <li class="item">
                 <a href="/contact">CONTACT US</a>
               </li>
             </ul>
           </div>
         </nav>
-        <div class="header__content text-center">
-          <h1 class="header__content__title">HUE COVENANT TILES</h1>
-          <p class="header__content__paragraph">Best Priced Porcelain and Ceramic Tiles Store.
+        <div class="header__content text-center" >
+          <h1 class="header__content__title" id='initial'>HUE COVENANT TILES</h1>
+          <p class="header__content__paragraph" id="second">Best Priced Porcelain and Ceramic Tiles Store.
           </p>
         </div>
       </div>
@@ -136,7 +138,8 @@
             <div class="col-md-6 col-lg-4">
               <div class="footer__fourth">
                 <h4 class="footer__title">INSTAGRAM</h4>
-                {{!-- <div class="row">
+                {{!--
+                <div class="row">
                   <ul>
                     <li>
                       <a href="#">
@@ -154,8 +157,8 @@
                       </a>
                     </li>
                   </ul>
-                </div> --}}
-                {{!-- <div class="row">
+                </div> --}} {{!--
+                <div class="row">
                   <ul>
                     <li>
                       <a href="#">
@@ -186,6 +189,8 @@
   </div>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+ <script src="js/main.js"></script>
+  
 
   <script>
     $(document).ready(function () {
