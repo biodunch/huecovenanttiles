@@ -209,8 +209,8 @@ button:focus {
   bottom: 0;
   border-radius: inherit;
   border: inherit;
-  -webkit-filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.77));
-  filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.77));
+  /* -webkit-filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.77)); */
+  /* filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.77)); */
 }
 
 .button--hover:hover {
@@ -219,10 +219,10 @@ button:focus {
 
 .button:hover {
   background-color: #ffffff;
-  border: 2px solid #26255e !important;
+  border: 1px solid #26255e !important;
   color: #26255e!important;
-  -webkit-box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13);
-  box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13);
+  /* -webkit-box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13); */
+  /* box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13); */
 }
 
 .button--light {
