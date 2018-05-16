@@ -194,7 +194,7 @@ button:focus {
   font-size: 16px;
   color: white!important;
   /* border: 1px solid #fff; */
-  background-color: #26255e;
+  background-color: #001f37;
   display: inline-block;
   position: relative;
   transition: all 0.4s linear;
@@ -219,8 +219,8 @@ button:focus {
 
 .button:hover {
   background-color: #ffffff;
-  border: 1px solid #26255e !important;
-  color: #26255e!important;
+  border: 1px solid #001f37 !important;
+  color: #001f37!important;
   /* -webkit-box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13); */
   /* box-shadow: 2.5px 4.33px 10px 0px rgba(0, 0, 0, 0.13); */
 }
@@ -270,11 +270,11 @@ button:focus {
 }
 
 .service .thumbnail:hover .service__title {
-  color: #26255e;
+  color: #001f37;
 }
 
 .service .thumbnail:hover .material-icons {
-  background-color: #26255e;
+  background-color: #001f37;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.192);
   box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.192);
   color: #fff;
@@ -293,7 +293,7 @@ button:focus {
   height: 70px;
   border-radius: 50%;
   background-color: rgba(199, 199, 199, 0.507);
-  color: #26255e;
+  color: #001f37;
   font-size: 30px;
   line-height: 0.933;
   line-height: 2.3;
@@ -364,7 +364,7 @@ button:focus {
 .page-section__title {
   font-size: 30px;
   font-weight: bold;
-  color: #26255e;
+  color: #001f37;
   margin-bottom: 25px;
 }
 
