@@ -29,27 +29,27 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-              <img src="img/logo.jpg" height="150px" alt="" class="img-circle">
+              <img src="img/logo.jpg" height="80vh" width="80vh" alt="" class="img-circle">
             </a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav pull-right custom-nav">
-              <li class="item">
+              <li class="link__item">
                 <a href="/">HOME</a>
               </li>
-              <li class="item">
+              <li class="link__item">
                 <a href="/service">PRODUCTS</a>
               </li>
-              <li class="item">
+              <li class="link__item">
                 <a href="/about">ABOUT</a>
               </li>
-              <li class="item">
+              <li class="link__item">
                 <a href="/contact">CONTACT US</a>
               </li>
             </ul>
           </div>
         </nav>
-        <div class="header__content text-center" >
+        <div class="header__content text-center">
           <h1 class="header__content__title" id='initial'>HUE COVENANT TILES</h1>
           <p class="header__content__paragraph" id="second">Best Priced Porcelain and Ceramic Tiles Store.
           </p>
@@ -128,10 +128,19 @@
                 </ul>
                 <h4 class="footer__subscribe__title">Subscribe</h4>
                 <div class="subscribe-section">
-                  <input type="email" class="form-control" size="50" placeholder="Enter Your Email" required>
+                  {{!-- <input type="email" class="form-control" size="50" placeholder="Enter Your Email" required>  --}}
+                  {{!--
                   <button class="subscribe-section__button" type="button">
                     <img src="img/send-icon.png" alt="">
-                  </button>
+                  </button> --}}
+
+                  <div class="input-group rounded">
+                    <span class="input-group-addon">
+                      <img src="img/send-icon.png" height="20px" width="20px" alt="">
+                    </span>
+                    <input type="text" name="" class="email__collect" id="" placeholder="Enter Your Email">
+
+                  </div>
                 </div>
               </div>
             </div>
@@ -180,7 +189,8 @@
               </div>
             </div>
           </div>
-          <hr class="footer__horizontal-bar">
+          {{!--
+          <hr class="footer__horizontal-bar"> --}}
           <p class="footer__bottom-paragraph">&copy; Copyright 2018
             <a href="//twitter.com/biodunch" style="color: #00aafe;font-weight:bold;">@biodunch</a>. All Rights Reserved</p>
         </div>
@@ -189,8 +199,8 @@
   </div>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
- <script src="js/main.js"></script>
-  
+  <script src="js/main.js"></script>
+
 
   <script>
     $(document).ready(function () {
