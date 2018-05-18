@@ -69,7 +69,7 @@ button:focus {
 }
 
 .main-wrapper {
-  width: 1600px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -82,7 +82,7 @@ button:focus {
 
 @media (min-width: 768px) {
   .container {
-    width: 600px;
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -96,7 +96,7 @@ button:focus {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1400px;
+    width: 100%;
     margin: 0 auto;
   }
 }
